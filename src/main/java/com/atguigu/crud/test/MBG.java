@@ -33,6 +33,7 @@ public class MBG {
     @Test
     public void test1(){
         System.out.println("测试Git更改");
+        System.out.println("测试Git更改3");
 
     }
 }
