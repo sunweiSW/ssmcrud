@@ -34,6 +34,7 @@ public class MBG {
     public void test1(){
         System.out.println("测试Git更改");
         System.out.println("测试Git更改3");
+        System.out.println("测试Git更改4");
 
     }
 }
