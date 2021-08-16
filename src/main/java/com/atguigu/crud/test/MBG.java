@@ -8,6 +8,7 @@ package com.atguigu.crud.test;
  * @开发版本：综合练习v0.1
  */
 
+import org.junit.jupiter.api.Test;
 import org.mybatis.generator.api.MyBatisGenerator;
 import org.mybatis.generator.config.Configuration;
 import org.mybatis.generator.config.xml.ConfigurationParser;
@@ -27,5 +28,11 @@ public class MBG {
         DefaultShellCallback callback = new DefaultShellCallback(overwrite);
         MyBatisGenerator myBatisGenerator = new MyBatisGenerator(config, callback, warnings);
         myBatisGenerator.generate(null);
+    }
+
+    @Test
+    public void test1(){
+        System.out.println("测试Git更改");
+
     }
 }
